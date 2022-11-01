@@ -4,12 +4,12 @@
 Louise’s play **Fever** came close to its fundraising goal in a short amount of time. Louise wants to know how different campaigns fared in relation to their launch dates and their funding goals. 
 
 ## Purpose
-The purpose of this project is to visualize campaign outcomes based on their launch dates and their funding goals. We are going to use the Kickstarter [dataset](https://github.com/vkbt/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx) and will produce a written report based on our analysis and the visualizations and share our results below.
+The purpose of this project is to visualize campaign outcomes based on their launch dates and their funding goals. We are going to use the Kickstarter [dataset](https://github.com/vkbt/Kickstarter_Analysis//blob/main/Kickstarter_Challenge.xlsx) and will produce a written report based on our analysis and the visualizations and share our results below.
 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-1. Source Data: [Kickstarter_Challenge.xlsx](https://github.com/vkbt/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx)
+1. Source Data: [Kickstarter_Challenge.xlsx](https://github.com/vkbt/Kickstarter_Analysis/blob/main/Kickstarter_Challenge.xlsx)
 2. Launch Period: from 2009 to 2017
 3. Category: theater
 4. Group by: monthly
@@ -17,10 +17,10 @@ The purpose of this project is to visualize campaign outcomes based on their lau
 #### Conclusion:
 Out of 1,369 examined campaigns launched between 2009 and 2017, we have observed that 839 campaignes succeeded, 493 failed and 37 were canceled. Given the low number of canceled campaigned overall we can concluded that canceled campaigns are irrelevant to our analysis. The most campaigns were launched in May, June and July, these three months also saw the most successful campaigns as well the most failed campaigns proving that there is a direct correlation between high number of launched campaigns and high success rate as well as increased failure rate. We also observed that despite low number of campaigns launched in October, the number of failed campaigns remained unusually high, therefore we would like to advise to exercise caution if launching campaign in October.
 
-<img src="https://github.com/vkbt/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png" width="80%" height="80%">
+<img src="https://github.com/vkbt/Kickstarter_Analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png" width="80%" height="80%">
 
 ### Analysis of Outcomes Based on Goals
-1. Source Data: [Kickstarter_Challenge.xlsx](https://github.com/vkbt/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx)
+1. Source Data: [Kickstarter_Challenge.xlsx](https://github.com/vkbt/Kickstarter_Analysis/blob/main/Kickstarter_Challenge.xlsx)
 2. Launch Period: from 2009 to 2017
 3. Subcategory: plays
 4. Group by: Goal amount
@@ -28,7 +28,7 @@ Out of 1,369 examined campaigns launched between 2009 and 2017, we have observed
 #### Conclusion:
 We have grouped campaigns for plays by goal amount and compared the number and percentage of successful, failed and canceled outcomes. There were no canceled campaigns for plays. Most successful campaigns had lower goals. Campaigns with the goal less than $1,000 had 76% success, campaigns with the goal from $1,000 to $4,999 had 73% success and campaigns with goal $5,000 to $9,999 had 55% success. We have also observed 2 outliers for campaigns with goals $35,000 to $39,999 and $40,000 to $44,999 respectively both with 67% successful outcome, however there were between 3-6 campaigns in these categories.
 
-<img src="https://github.com/vkbt/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png" width="80%" height="80%">
+<img src="https://github.com/vkbt/Kickstarter_Analysis/blob/main/Resources/Outcomes_vs_Goals.png" width="80%" height="80%">
 
 ### Challenges and Difficulties Encountered
 
